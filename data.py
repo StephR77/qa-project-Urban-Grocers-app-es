@@ -15,18 +15,3 @@ kit_body = {
     "name": "New Kit",
     "cardId": 1
 }
-#prueba 1
-get_kit_body1 = { "name": "a"}
-#prueba 2
-get_kit_body2 = { "name": '''Abcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-                 '''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'''
-                 '''dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-                 ''''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcda'''
-                 '''bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-                 '''cdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcdabc'''
-                '''dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-                 '''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcda'''
-                 '''bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd'''
-                 '''abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC'''}
-#prueba 3
-get_kit_body3 = { "name": "" }

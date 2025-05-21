@@ -3,19 +3,17 @@ import data
 import requests
 
 #create new user
-def post_new_user():
+def post_create_user():
     return requests.post(configuration.URL_SERVICE + configuration.CREATE_USER_PATH,
                          json = data.user_body,
                          headers = data.headers)
 
 #create kit with dictionary copy and token
-def post_new_client_kit(dict):
-    response = post_new_user().json()
-    #print(response)
+def post_create_new_kit(name):
+    response = post_create_user().json()
     new_header = data.header_kit.copy()
     new_header['Authorization'] = "Bearer " + response["authToken"]
-    new_body = modify_body(dict)
-    #print(new_header)
+    new_body = modify_body(name)
     return requests.post(configuration.URL_SERVICE + configuration.KITS_PATH,
                          json = new_body,
                          headers= new_header)
