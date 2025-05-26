@@ -4,8 +4,8 @@ import sender_stand_request
 
 def positive_assert(name):
     response = sender_stand_request.post_create_new_kit(name)
-    if response.status_code == 201:
-        print(f'successfully created {response.status_code}')
+    assert response.status_code == 201
+    assert response.json()["name"] == name
 
 
 def negative_assert(name):

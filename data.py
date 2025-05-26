@@ -16,38 +16,38 @@ kit_body = {
     "cardId": 1
 }
 
-characters_one = "a"
+characters_one = { "name" : "a"}
 
-characters_511 = '''Abcdabcdabcdabcdabcdabcdabcdabcda'''
+characters_511 = {"name" :'Abcdabcdabcdabcdabcdabcdabcdabcda'
 'bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'
-'''dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-'''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-'''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'''
-'''dabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcd'''
-'''abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-'''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd'''
-'''abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'''
-'''dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC'''
+'dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'
+'cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'
+'cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'
+'dabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcd'
+'abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'
+'cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd'
+'abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'
+'dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabC'}
 
-cero_characters = ""
+cero_characters = {"name": ""}
 
-characters_512 = '''Abcdabcdabcdabcdabcdabcdabcdabcda'''
+characters_512 = {"name" :'Abcdabcdabcdabcdabcdabcdabcdabcda'
 'bcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'
-'''dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-'''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-'''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'''
-'''dabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcd'''
-'''abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'''
-'''cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd'''
-'''abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'''
-'''dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcA'''
+'dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'
+'cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'
+'cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'
+'dabcdabcdabcdabcdAbcdabcdabcdabcdabcdabcdabcdabcdabcd'
+'abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdab'
+'cdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcd'
+'abcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabc'
+'dabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcdabcA'}
 
-special_characters = "№%@,"
+special_characters = {"name": "№%@,"}
 
-space_in_between = "A Aaa"
+space_in_between = {"name": "A Aaa"}
 
-numbers = "123"
+numbers = {"name": "123"}
 
-no_character = {}
+no_character = {"name":{}}
 
-not_allowed = "123"
+not_allowed = {"name": "123"}
