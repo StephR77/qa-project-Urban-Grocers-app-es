@@ -1,5 +1,5 @@
 # PROJECT URBAN GROCERS
-## DESCRIPTION
+## DESCRIPTION 📖
 
 Primero se tiene que abrir una archivo llamado `configuration.py` para alojar las URL del servidor, la dirección API para crear un usuario y la dirección API para crear un kit.
 
@@ -19,7 +19,7 @@ Luego de tener casi todo listo, en el archivo `create_kit_name_kit_test.py` defi
 
 Al correr las pruebas, se tienen aún fallos en el programa con respecto al test 3 (kit con número de caracteres menor a uno), test 4 (kit con 512 caracteres), test 8 (kit con no caracteres) y test 9 (kit con números) pues nos da un resultado 201 y este debería reflejar un error 400.
 
-### HOW TO CREATE A GITHUB
+### HOW TO CREATE A GITHUB 🐱
 
 Este archivo junto con los demás (**configuration.py, data.py, sender_stand_request.py, create_kit_name_kit_test.py, README.md, y .gitignore**) estarán guardados en `git.hub` por medio de la clonación en el terminal de Cmder.
 
@@ -41,7 +41,7 @@ En el último archivo `create_kit_name_kit_test.py` se encontrarán las funcione
 
 **Para ejecutar las pruebas** hay dos posibilidades; en la parte superior derecha se encuentra un símbolo triangular de color verde y en la parte inferior izquierda en la terminal se encuentra el mismo botón con el símbolo triangular pero gris. Allí en la terminal te mostrará los tests fallidos y los test que han pasado, y si tienen errores la terminal te mostrará dónde se encuentra el error en color rojo.
 
-### TOOLS
+### TOOLS 🛠️
 
 Finalmente, para llevar a cabo este proyecto se utilizaron las siguientes herramientas:
 1. **Python 3.13**: Este es el lenguaje de programación para escribir las pruebas.
